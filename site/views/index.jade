@@ -1,5 +1,7 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+	include ./large_header.jade
+	img.profile-pic.animated.bounceInUp(src= "images/profile.jpg")
+	h2.profile-name.animated.bounceInUp Jacob Gagné
+	h4.profile-name.animated.bounceInUp Software Engineering Co-op Student

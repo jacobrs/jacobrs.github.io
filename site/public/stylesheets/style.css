@@ -1,5 +1,4 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 	background-color:transparent;
 	color:#eee;
@@ -15,4 +14,50 @@ a {
 
 h1 {
 	color:#eee;
+}
+
+.header, .extended-header{
+	background-color:#90C53F;
+	height:6em;
+	text-align:center;
+}
+
+.extended-header{
+	height:16em;
+}
+
+.profile-pic, .profile-name{
+	left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+	height: 10em;
+	width:  10em;
+	position:absolute;
+	border-radius: 50%;
+	text-align:center;
+	top:11em;
+}
+
+.profile-name{
+	height:auto;
+	width:auto;
+}
+
+h4.profile-name{
+	top:22em;
+}
+
+.extended-header .nav-pills, .header .nav-pills{
+	padding:2em;
+	display:inline-block;
+	text-align:center;
+}
+
+.extended-header .nav-pills li a, .header .nav-pills li a{
+	color:white;
+}
+
+.extended-header .nav-pills li a:hover, .header .nav-pills li a:hover{
+	color:black;
 }
