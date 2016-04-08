@@ -23,6 +23,7 @@ h1 {
 	position:fixed;
 	z-index: 3;
 	width:100%;
+	top:0;
 }
 
 .filler-header{
@@ -89,4 +90,31 @@ h1 {
 
 .extended-header .nav-pills li a:hover, .header .nav-pills li a:hover{
 	color:black;
+}
+
+/* -------------- ABOUT PAGE ----------------- */
+
+.info-section{
+	z-index:4;
+	margin:0px auto;
+	text-align:center;
+	margin-top:6em;
+	padding:2em 4em;
+	min-width: 12em;
+	max-width: 44em;	
+}
+
+.info{
+	padding-top:1em;
+	text-align:justify;
+	text-indent:1em;
+}
+
+.images{
+	text-align: center;
+}
+
+.images img{
+	height:3em;
+	width:3em;
 }
