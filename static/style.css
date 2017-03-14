@@ -6,6 +6,7 @@ nav{
 
 #pic-bg{
 	height: 8em;
+	text-align: center;
 	background-color: #f7f7f7;
 }
 
@@ -21,9 +22,21 @@ nav{
 	font-size: 11pt;
 }
 
+#email{
+	padding-bottom:.4em;
+}
+
 .section-header{
 	text-align: center;
 	padding-bottom:.5em;
+}
+
+.quote{
+	color:#27ae60;
+}
+
+.type{
+	color:#DB0A5B;
 }
 
 .section-hr{
@@ -34,9 +47,8 @@ nav{
 .profile-pic{
 	border-radius: 50%;
 	height:8em;
-	position: absolute;
-	top: calc(4em + 56px);
-	left: calc(50% - 4em);
+	position: relative;
+	margin-top:4em;
 }
 
 .center{
@@ -63,5 +75,4 @@ nav{
 
 .icons a{
 	color:#333;
-	margin:.5em;
 }
