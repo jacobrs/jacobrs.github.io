@@ -1,0 +1,41 @@
+nav{
+	border-bottom: solid 1px #dddddd;
+}
+
+#pic-bg{
+	height: 8em;
+	background-color: #f7f7f7;
+}
+
+#content{
+	margin:0 auto;
+	margin-top: 6em;
+	padding: 1em;
+}
+
+#content p{
+	text-align: justify;
+	font-size: 11pt;
+}
+
+.section-header{
+	text-align: center;
+	padding-bottom:.5em;
+}
+
+.section-hr{
+	width:50%;
+	background-color: #CCCCCC;
+}
+
+.profile-pic{
+	border-radius: 50%;
+	height:8em;
+	position: absolute;
+	top: calc(4em + 56px);
+	left: calc(50% - 4em);
+}
+
+.right{
+	float:right;
+}
