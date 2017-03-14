@@ -1,6 +1,8 @@
+/*
 nav{
 	border-bottom: solid 1px #dddddd;
 }
+*/
 
 #pic-bg{
 	height: 8em;
@@ -11,6 +13,7 @@ nav{
 	margin:0 auto;
 	margin-top: 6em;
 	padding: 1em;
+	padding-bottom: 12em;
 }
 
 #content p{
@@ -36,6 +39,29 @@ nav{
 	left: calc(50% - 4em);
 }
 
+.center{
+	text-align:center;
+}
+
 .right{
 	float:right;
+}
+
+.icons{
+	text-align:center;
+	font-size:30pt;
+}
+
+.icons .fa{
+	padding:.5em;
+}
+
+.icons a:hover, .icons a:visited, .icons a:active, .icons a:focus{
+	color:#333;
+	text-decoration: none;
+}
+
+.icons a{
+	color:#333;
+	margin:.5em;
 }
