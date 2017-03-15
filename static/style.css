@@ -24,7 +24,11 @@ nav{
 	padding-bottom: 12em;
 }
 
-#content p, #content-projects p{
+#content-projects p{
+	font-size:11pt;
+}
+
+#content p{
 	text-align: justify;
 	font-size: 11pt;
 }
