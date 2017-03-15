@@ -7,7 +7,7 @@ nav{
 #pic-bg{
 	height: 8em;
 	text-align: center;
-	background-color: #f7f7f7;
+	background-color: #2C3E50;
 }
 
 #content{
@@ -31,6 +31,10 @@ nav{
 
 #email{
 	padding-bottom:.4em;
+}
+
+.bg-blue{
+	background-color:#2C3E50;
 }
 
 .section-header{
@@ -71,6 +75,10 @@ nav{
 	font-size:30pt;
 }
 
+.card{
+	border-color:#2C3E50;
+}
+
 .icons .fa{
 	padding:.5em;
 }
@@ -82,4 +90,20 @@ nav{
 
 .icons a{
 	color:#333;
+}
+
+.btn-outline-secondary{
+	border-color:#fff;
+	color:#fff;
+}
+
+.card-header{
+	background-color:#2C3E50;
+	color:#fff;
+}
+
+.btn-outline-secondary:hover, .btn-outline-secondary:focus, .btn-outline-secondary:active{
+	border-color:#fff;
+	background-color:rgba(255,255,255,.8);
+	color:#2C3E50;
 }
