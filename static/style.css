@@ -4,6 +4,18 @@ nav{
 }
 */
 
+body{
+	position: relative;
+}
+
+a{
+	color:#2C3E50;
+}
+
+a:hover{
+	color:rgba(44, 62, 80, .5);
+}
+
 #pic-bg{
 	height: 8em;
 	text-align: center;
@@ -35,6 +47,11 @@ nav{
 
 #email{
 	padding-bottom:.4em;
+}
+
+#category-bar{
+	padding:.5em;
+	background:#FFF;
 }
 
 .bg-blue{
@@ -110,4 +127,12 @@ nav{
 	border-color:#fff;
 	background-color:rgba(255,255,255,.8);
 	color:#2C3E50;
+}
+
+.nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active{
+	background-color:#2C3E50;
+}
+
+.subject-header{
+	padding-top:4em;
 }

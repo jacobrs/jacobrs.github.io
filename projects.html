@@ -9,8 +9,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="./static/style.css">
+    <link rel="stylesheet" href="./static/animate.css">
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#category-bar">
     <nav class="navbar navbar-toggleable-md navbar-inverse bg-blue">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -40,31 +41,107 @@
     <div class="col-xl-7 col-lg-8 col-md-12 col-sm-12" id="content-projects"> 
       <h3 class="section-header" id="projects">Project List</h3>
       <hr class="section-hr"><br><br>
-      <h4>Web Development</h4>
-      <p>Web development has been a passion of mine for a very long time. I have completed many projects utilizing various different types of web technologies. I even went as far as co-founding a company with a very functional web application. Listed below are most of my web projects.</p>
+      <ul class="nav nav-pills sticky-top justify-content-center" id="category-bar">
+        <li class="nav-item">
+          <a class="nav-link" href="#web">Web Dev</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#mobile">Mobile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#software">Software</a>
+        </li>
+      </ul>
+      <h4 id="web" class="subject-header">Web Development</h4>
+      <p>Web development has been a passion of mine for a long time. I have completed many projects utilizing various types of web technologies. I even went as far as co-founding a company with a functional web application. Listed below are my most notable web projects.</p>
       <br>
       <div class="card">
         <div class="card-header">
-          Co-Founder, Full-Stack Developer
+          Frontend Developer
+          <span class="year right">2017</span>
+        </div>
+        <div class="card-block">
+          <h4 class="card-title">SCS Website 2017</h4>
+          <p class="card-text">Completed the modernization of the Software Engineering and Computer Science Society (at Concordia University) website. Most of the work was to move the current infrastructure to the cloud and rework the entire frontend of the webpage. I was able to complete this task in under a week.</p>
+          <p class="card-text"><strong>Technologies:</strong> Bootstrap 4, CSS, Javascript, HTML5, AWS.</p>
+          <a href="http://scsconcordia.ca/" class="btn btn-outline-primary" target="_blank">Visit the website</a>
+        </div>
+      </div><br>
+      <div class="card">
+        <div class="card-header">
+          Co-Founder
+          <span class="year right">2013-2017</span>
         </div>
         <div class="card-block">
           <h4 class="card-title">BreakMates Inc.</h4>
           <p class="card-text">Developed from the ground up, BreakMates is an application that allows students to share their availabilities and coordinate to create plans when everyone one is available. Performing on a scalable cloud infrastructure, the web app was structured to handle high volumes of traffic. There was also a high focus placed on design.</p>
           <p class="card-text"><strong>Technologies:</strong> PHP, MySQL, ZURB Foundation framework, Ajax, AWS.</p>
-          <a href="https://breakmates.com/" class="btn btn-outline-primary" target="_blank">Visit to the website</a>
+          <a href="https://breakmates.com/" class="btn btn-outline-primary" target="_blank">Visit the website</a>
+        </div>
+      </div><br>
+      <div class="card">
+        <div class="card-header">
+          MEAN Stack Developer
+          <span class="year right">2016</span>
+        </div>
+        <div class="card-block">
+          <h4 class="card-title">Algorithm Time</h4>
+          <p class="card-text">The Software Engineering and Computer Science society hosts algorithmic competitions every week during the semester. As VP Projects of the society, I developed an application for the event that records every attendant's score in a globalized leaderboard and also allows the sharing of problems every week.</p>
+          <p class="card-text"><strong>Technologies:</strong> Node.js, MongoDB, HTML5, CSS, Bootstrap</p>
+          <a href="http://algotime.scsconcordia.ca" class="btn btn-outline-primary" target="_blank">Visit Webapp</a>
         </div>
       </div><br>
       <div class="card">
         <div class="card-header">
           Full-Stack Developer
+          <span class="year right">2016</span>
         </div>
         <div class="card-block">
           <h4 class="card-title">BringIt!</h4>
           <p class="card-text">Think of BringIt as Uber for things, but instead of transporting people, BringIt! delivers items. Any user, once logged in, can "Ask for Something" to be delivered to his/her vicinity. Alternatively, they can search for items that can be bought near them and look up their destinations, as well as the fee for its delivery.</p>
-          <p class="card-text"><strong>Technologies:</strong> Node.js, Firebase, HTML, CSS, Bootstrap</p>
+          <p class="card-text"><strong>Technologies:</strong> Node.js, Firebase, HTML5, CSS, Bootstrap</p>
           <a href="https://devpost.com/software/bringit" class="btn btn-outline-primary" target="_blank">View on Devpost</a>
         </div>
+      </div><br>
+      <div class="card">
+        <div class="card-header">
+          Backend Developer
+          <span class="year right">2015</span>
+        </div>
+        <div class="card-block">
+          <h4 class="card-title">#Surveys</h4>
+          <p class="card-text">Developed a web application that made use of the Twitter API to create surveys. Results were aggregated and displayed by the web app. Was in charge of the backend logic, some front end implementations and communication with the Twitter API. Our team of two developers won first place.</p>
+          <p class="card-text"><strong>Technologies:</strong> HTML5, JS, CSS, PHP, MySQL, Bootstrap.</p>
+          <a href="https://devpost.com/software/survey" class="btn btn-outline-primary" target="_blank">View on Devpost</a>
+        </div>
+      </div><br>
+      <div class="card">
+        <div class="card-header">
+          Full Stack Developer
+          <span class="year right">2014</span>
+        </div>
+        <div class="card-block">
+          <h4 class="card-title">Lokal</h4>
+          <p class="card-text">Worked as a backend developer to create a system for sending restaurant coupons on customer's birthdays. This was a contract job in College which didn't pan out so we open sourced the code. Front end design was important to us so we implemented Zurb's foundation framework.</p>
+          <p class="card-text"><strong>Technologies:</strong> HTML5, JS, CSS, PHP, MySQL, ZURB Foundation</p>
+          <a href="https://github.com/jacobrs/Lokal" class="btn btn-outline-primary" target="_blank">View on Github</a>
+        </div>
       </div>
+      <h4 id="mobile" class="subject-header">Mobile Development</h4>
+      <p>Java for Android was the first programming language I learnt. At the age of fifteen I decided to create my own Android application over a summer. I completed my goal and loved the process of mobile development. Since then I have developed a couple more mobile applications and below are some of my best.</p>
+      <br>
+      <div class="card">
+        <div class="card-header">
+          Android Developer
+          <span class="year right">2013-2017</span>
+        </div>
+        <div class="card-block">
+          <h4 class="card-title">BreakMates Android</h4>
+          <p class="card-text">The web app mentioned above was a part of the three platform solution, BreakMates also required an Android application where users can share their availabilities and coordinate to create plans when everyone one is available. Material design was implemented to keep up with Google's ever changing design standards.</p>
+          <p class="card-text"><strong>Technologies:</strong> Android, Gradle, third party libraries.</p>
+          <a href="https://play.google.com/store/apps/details?id=com.breakmates" class="btn btn-outline-primary" target="_blank">View on the Playstore</a>
+        </div>
+      </div><br>
     </div>
 
     <!-- Font-Awesome -->
