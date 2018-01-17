@@ -19,7 +19,7 @@ a:hover{
 #pic-bg{
 	height: 8em;
 	text-align: center;
-	background-color: #2C3E50;
+	background-color: #22A7F0;
 }
 
 #content{
@@ -55,7 +55,7 @@ a:hover{
 }
 
 .bg-blue{
-	background-color:#2C3E50;
+	background-color:#22A7F0;
 }
 
 .section-header{
@@ -97,7 +97,7 @@ a:hover{
 }
 
 .card{
-	border-color:#2C3E50;
+	border-color:#22A7F0;
 }
 
 .icons .fa{
@@ -119,18 +119,18 @@ a:hover{
 }
 
 .card-header{
-	background-color:#2C3E50;
+	background-color:#22A7F0;
 	color:#fff;
 }
 
 .btn-outline-secondary:hover, .btn-outline-secondary:focus, .btn-outline-secondary:active{
 	border-color:#fff;
 	background-color:rgba(255,255,255,.8);
-	color:#2C3E50;
+	color:#22A7F0;
 }
 
 .nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active{
-	background-color:#2C3E50;
+	background-color:#22A7F0;
 }
 
 .subject-header{
