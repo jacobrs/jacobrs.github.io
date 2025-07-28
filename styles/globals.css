@@ -24,6 +24,12 @@ body {
   flex-direction: column;
 }
 
+@media (max-width: 520px) {
+  body {
+    padding: 0.5rem;
+  }
+}
+
 .header { 
   display: flex;
   justify-content: space-between; 
@@ -37,6 +43,7 @@ body {
   padding: 0lh 1ch;
   padding-top: 1lh;
   gap: 1lh;
+  overflow: hidden;
 }
 
 span {
@@ -50,6 +57,28 @@ span {
 
 .commit-hash {
   color: #DED343
+}
+
+.hash-short {
+  display: none;
+}
+
+.indented {
+  padding-left: 2ch;
+}
+
+@media (max-width: 520px) {
+  .hash-full {
+    display: none;
+  }
+  
+  .hash-short {
+    display: inline;
+  }
+  
+  .indented {
+    padding-left: 0;
+  }
 }
 
 .entry-container {

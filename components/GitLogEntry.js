@@ -8,16 +8,19 @@ export default function GitLogEntry({entryData}) {
 
   return (
     <div className='entry-container'>
-      <p className='commit-hash'>Commit {commitHash}</p>
+      <p className='commit-hash'>
+        Commit <span className='hash-full'>{commitHash}</span>
+        <span className='hash-short'>{commitHash.substring(0, 7)}</span>
+      </p>
       <p className='author-info'>Author: {authorName} {`<${authorEmail}>`}</p>
-      <p className='date-info'>Date: &nbsp;&nbsp;{entryData['startDate']}</p>
+      <p className='date-info'>Date: {entryData['startDate']}</p>
       <br/>
-      <p className='company-name'>&nbsp;&nbsp;&nbsp;&nbsp;{entryData['companyName']}</p>
-      <p className='job-title'>&nbsp;&nbsp;&nbsp;&nbsp;{entryData['jobTitle']}</p>
+      <p className='company-name indented'>{entryData['companyName']}</p>
+      <p className='job-title indented'>{entryData['jobTitle']}</p>
       <br/>
       {
         entryData['points'].map( point =>
-          <p key={point}>&nbsp;&nbsp;&nbsp;&nbsp;* {point}</p>
+          <p key={point} className='indented'>* {point}</p>
         )
       }
     </div>
