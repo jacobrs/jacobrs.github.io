@@ -1,0 +1,42 @@
+@layer base, utils, components;
+
+@import "@webtui/css/base.css";
+
+/* Utils */
+@import "@webtui/css/utils/box.css";
+
+/* Components */
+@import "@webtui/css/components/button.css";
+@import "@webtui/css/components/typography.css";
+@import "@webtui/css/components/spinner.css";
+
+@import "@webtui/theme-catppuccin";
+
+
+/* Custom extension */
+
+body {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.header { 
+  display: flex;
+  justify-content: space-between; 
+}
+
+#content { 
+  padding: 0lh 1ch;
+  padding-top: 1lh;
+  gap: 1lh;
+}
+
+span {
+  background-color: var(--background0);
+  padding: 0 1ch;
+}
+
+.spinner {
+  padding: 0
+}
