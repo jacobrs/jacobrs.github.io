@@ -1,0 +1,72 @@
+{
+  "data": [
+    {
+      "startDate": "2023-03-06",
+      "endDate": null,
+      "companyName": "Small Door Veterinary",
+      "jobTitle": "Senior Software Developer",
+      "points": [
+        "Engineering and maintaining realtime communication infrastructure",
+        "Improve and iterate on backend business logic with regards to booking and payments",
+        "Build and provide tooling to unlock and enhance new/existing operational processes",
+        "Experiment and integrate artificial intelligence where it can improve processes"
+      ]
+    },
+    {
+      "startDate": "2019-05-15",
+      "endDate": "2022-08-01",
+      "companyName": "Shopify",
+      "jobTitle": "Software Developer",
+      "points": [
+        "Implemented multiple GraphQL APIs to enhance platform capabilities",
+        "Engineered solutions for immutability of information with regards to regulations",
+        "Extended checkout/delivery functionality to support 3rd party information integration"
+      ]
+    },
+    {
+      "startDate": "2017-05-01",
+      "endDate": "2019-04-30",
+      "companyName": "AppHelp by AppDirect",
+      "jobTitle": "Software Developer Intern",
+      "points": [
+        "Working on a Scala micro-service backend",
+        "Prototyping frontends in React",
+        "Automated testing with scalatest and jest",
+        "Clustering with akka-cluster"
+      ]
+    },
+    {
+      "startDate": "2016-09-01",
+      "endDate": "2016-12-31",
+      "companyName": "Lockheed Martin",
+      "jobTitle": "Software Developer Intern",
+      "points": [
+        "Worked on 3D training simulators in Java",
+        "Gained project management experience to handle tight deadlines",
+        "Implemented acceptance tests using Gherkin and Cucumber"
+      ]
+    },
+    {
+      "startDate": "2012-11-01",
+      "endDate": "2016-12-31",
+      "companyName": "BreakMates, Inc.",
+      "jobTitle": "Developer, Co-Founder",
+      "points": [
+        "Android Development and optimization (Java)",
+        "Cloud infrastructure and backend development (AWS, PHP)",
+        "Front-end development on web application (Javascript)"
+      ]
+    },
+    {
+      "startDate": "2011-09-01",
+      "endDate": "2016-09-30",
+      "companyName": "IR-Win",
+      "jobTitle": "Full Stack Developer",
+      "points": [
+        "Optimize slow running code (PHP)",
+        "Implement front end improvements (Javascript)",
+        "Translate mathematic equations and complex financial formulas into code (PHP)"
+      ]
+    }
+  ]
+}
