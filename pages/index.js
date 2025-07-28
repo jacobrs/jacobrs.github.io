@@ -13,8 +13,8 @@ export default function Home() {
       </Head>
       <div box-='square' shear-='both'>
         <div className='header' is-='row' align-='between'>
-          <span is-='badge' variant-="background2">jacob@home:~$ git log</span>
-          <span is-='badge' variant-="background2" className='header-link'>
+          <span is-='badge'> jacob@home:~$ git log<span className='blink'>&#9608;</span></span>
+          <span is-='badge' className='header-link'>
             <Link href='/'>home</Link>
           </span>
         </div>
@@ -22,12 +22,12 @@ export default function Home() {
           <GitLogList entries={workExperienceData['data']}/>
         </div>
         <div className='header'>
-          <span is-='badge' variant-="background2" className='header-link'>
+          <span is-='badge' className='footer-link'>
             <Link href='https://github.com/jacobrs' target='_blank'>
               github
             </Link>
           </span>
-          <span is-='badge' variant-="background2" className='header-link'>
+          <span is-='badge' className='footer-link'>
             <Link href='https://webtui.ironclad.sh/start/ascii-boxes/' target='_blank'>
               built with webtui
             </Link>

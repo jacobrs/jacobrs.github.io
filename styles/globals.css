@@ -30,13 +30,36 @@ body {
   }
 }
 
-.header { 
+a, a:visited, a:hover {
+  color: white;
+  text-decoration: none; 
+}
+
+.header, .footer { 
   display: flex;
   justify-content: space-between; 
 }
 
 .header-link {
+  background-color: var(--sapphire);
+}
+
+.header-link a {
+  color: var(--background0);
+}
+
+.footer-link {
   background-color: var(--background2);
+}
+
+.blink {
+  animation: blink 1s infinite;
+  padding: 0;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
 }
 
 #content { 
@@ -85,7 +108,3 @@ span {
   padding-bottom: 1.5rem;
 }
 
-a, a:visited, a:hover {
-  color: white;
-  text-decoration: none; 
-}
