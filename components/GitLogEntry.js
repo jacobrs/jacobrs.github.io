@@ -12,7 +12,7 @@ export default function GitLogEntry({entryData}) {
         Commit <span className='hash-full'>{commitHash}</span>
         <span className='hash-short'>{commitHash.substring(0, 7)}</span>
       </p>
-      <p className='author-info'>Author: {authorName} {`<${authorEmail}>`}</p>
+      <p className='author-info'>Author: {authorName} <span className='author-email'>{`<${authorEmail}>`}</span></p>
       <p className='date-info'>Date: {entryData['startDate']}</p>
       <br/>
       <p className='company-name indented'>{entryData['companyName']}</p>

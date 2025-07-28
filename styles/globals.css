@@ -102,6 +102,10 @@ span {
   .indented {
     padding-left: 0;
   }
+  
+  .author-email {
+    display: none;
+  }
 }
 
 .entry-container {

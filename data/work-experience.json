@@ -6,10 +6,10 @@
       "companyName": "Small Door Veterinary",
       "jobTitle": "Senior Software Developer",
       "points": [
-        "Engineering and maintaining realtime communication infrastructure",
-        "Improve and iterate on backend business logic with regards to booking and payments",
-        "Build and provide tooling to unlock and enhance new/existing operational processes",
-        "Experiment and integrate artificial intelligence where it can improve processes"
+        "Architected and maintained real-time communication infrastructure for veterinary operations",
+        "Enhanced backend booking and payment systems, improving user experience and efficiency",
+        "Developed internal tooling and automation to streamline operational processes",
+        "Researched and integrated AI solutions to optimize business processes"
       ]
     },
     {
@@ -18,9 +18,9 @@
       "companyName": "Shopify",
       "jobTitle": "Software Developer",
       "points": [
-        "Implemented multiple GraphQL APIs to enhance platform capabilities",
-        "Engineered solutions for immutability of information with regards to regulations",
-        "Extended checkout/delivery functionality to support 3rd party information integration"
+        "Designed and implemented GraphQL APIs to extend platform functionality",
+        "Developed regulatory compliance solutions ensuring data immutability",
+        "Enhanced checkout and delivery systems by extending third-party capabilities"
       ]
     },
     {
@@ -29,10 +29,10 @@
       "companyName": "AppHelp by AppDirect",
       "jobTitle": "Software Developer Intern",
       "points": [
-        "Working on a Scala micro-service backend",
-        "Prototyping frontends in React",
-        "Automated testing with scalatest and jest",
-        "Clustering with akka-cluster"
+        "Developed and maintained Scala microservices",
+        "Built responsive React frontend prototypes to enhance user experience",
+        "Implemented test suites using ScalaTest and Jest for code quality",
+        "Configured distributed systems using Akka Cluster for scalability"
       ]
     },
     {
@@ -41,9 +41,9 @@
       "companyName": "Lockheed Martin",
       "jobTitle": "Software Developer Intern",
       "points": [
-        "Worked on 3D training simulators in Java",
-        "Gained project management experience to handle tight deadlines",
-        "Implemented acceptance tests using Gherkin and Cucumber"
+        "Developed 3D training simulation software using Java",
+        "Managed project deliverables under tight deadlines while maintaining quality standards",
+        "Implemented behavior-driven testing using Gherkin and Cucumber"
       ]
     },
     {
@@ -52,9 +52,9 @@
       "companyName": "BreakMates, Inc.",
       "jobTitle": "Developer, Co-Founder",
       "points": [
-        "Android Development and optimization (Java)",
-        "Cloud infrastructure and backend development (AWS, PHP)",
-        "Front-end development on web application (Javascript)"
+        "Led Android application development and optimization for social scheduling application",
+        "Architected supporting cloud infrastructure and backend services on AWS with PHP",
+        "Developed responsive web application using JavaScript to complement mobile offerings"
       ]
     },
     {
@@ -63,9 +63,8 @@
       "companyName": "IR-Win",
       "jobTitle": "Full Stack Developer",
       "points": [
-        "Optimize slow running code (PHP)",
-        "Implement front end improvements (Javascript)",
-        "Translate mathematic equations and complex financial formulas into code (PHP)"
+        "Enhanced user interfaces with modern JavaScript to improve user experience",
+        "Translated complex mathematical and financial algorithms into automated PHP code"
       ]
     }
   ]
