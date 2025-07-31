@@ -1,10 +1,27 @@
 import crypto from 'crypto';
+import Keyword from './Keyword';
+import highlightedWords from '../data/highlighted-words.json';
 
 export default function GitLogEntry({entryData}) {
   const authorEmail = 'jacobrs@users.noreply.github.com';
   const authorName = 'Jacob Gagné';
 
   const commitHash = crypto.createHash('sha1').update(entryData['companyName']).digest('hex');
+
+  const parseTextWithKeywords = (text) => {
+    const words = text.split(/(\s+)/);
+    return words.map((word, index) => {
+      const cleanWord = word.toLowerCase();
+      
+      for (const [type, wordList] of Object.entries(highlightedWords)) {
+        if (wordList.some(highlightWord => highlightWord.toLowerCase() === cleanWord)) {
+          return <Keyword key={index} word={word} type={type} />;
+        }
+      }
+      
+      return word;
+    });
+  };
 
   return (
     <div className='entry-container'>
@@ -20,7 +37,7 @@ export default function GitLogEntry({entryData}) {
       <br/>
       {
         entryData['points'].map( point =>
-          <p key={point} className='indented'>* {point}</p>
+          <p key={point} className='indented'>* {parseTextWithKeywords(point)}</p>
         )
       }
     </div>

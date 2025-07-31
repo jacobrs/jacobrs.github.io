@@ -1,0 +1,29 @@
+{
+  "tech": [
+    "ai",
+    "graphql",
+    "api",
+    "jest",
+    "scalatest",
+    "react",
+    "aws",
+    "akka",
+    "gherkin",
+    "cucumber"
+  ],
+  "language": [
+    "javascript",
+    "scala",
+    "php",
+    "java"
+  ],
+  "stat": [
+    "automation",
+    "frontend",
+    "backend",
+    "microservices",
+    "android",
+    "real-time",
+    "scalability"
+  ]
+}
